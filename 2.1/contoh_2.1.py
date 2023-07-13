@@ -1,4 +1,4 @@
-x = input("Masukkan satu integer: ")
+x = int(input("Masukkan satu integer: "))
 
 if x < 0:
     print("Negatif")

@@ -9,4 +9,6 @@ elif jumlah_jualan < 1000:
 else:
     komisen = 16 / 100
 
-print(komisen)
+jumlah_komisen = komisen * jumlah_jualan
+print("Jumlah komisen diterima: RM {:.2f}".format(jumlah_komisen))
+
